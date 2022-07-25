@@ -17,7 +17,7 @@ Keep an eye on the [Wiki](https://deckbrew.xyz) for more information about Plugi
     - For the latest pre-release,
         - `curl -L https://github.com/SteamDeckHomebrew/PluginLoader/raw/main/dist/install_prerelease.sh | sh`
     - For testers/plugin developers:
-        - `curl -L https://github.com/SteamDeckHomebrew/PluginLoader/raw/main/dist/install_prerelease.sh | sh`
+        - `curl -L https://github.com/SteamDeckHomebrew/PluginLoader/raw/main/dist/install_prerelease.sh | sh` 
         - [Wiki Link](https://deckbrew.xyz/en/loader-dev/development)
 7. Done! Reboot back into Gaming mode and enjoy your plugins!
 
