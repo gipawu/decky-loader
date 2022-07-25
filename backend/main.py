@@ -33,7 +33,7 @@ logger = getLogger("Main")
 
 async def chown_plugin_dir(_):
     code_chown = call(["chown", "-R", "deck:deck", CONFIG["plugin_path"]])
-    code_chmod = call(["chmod", "-R", "755", CONFIG["plugin_path"]])
+    code_chmod = call(["chmod", "-R", "554", CONFIG["plugin_path"]])
     if code_chown != 0 or code_chmod != 0:
         logger.error(f"chown/chmod exited with a non-zero exit code (chown: {code_chown}, chmod: {code_chmod})")
 
