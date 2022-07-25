@@ -40,7 +40,7 @@ class PluginBrowser:
         zip_file = ZipFile(zip)
         zip_file.extractall(self.plugin_path)
         Popen(["chown", "-R", "deck:deck", self.plugin_path])
-        Popen(["chmod", "-R", "555", self.plugin_path])
+        Popen(["chmod", "-R", "755", self.plugin_path])
         return True
 
     def find_plugin_folder(self, name):
